@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "右下角重启按钮",
+    "description": "DS Bot 界面右下角的圆形扁平化按钮：点一下先确认，可取消、等空闲或强制重启 DSH。重启由本插件自带的桌面端助手完成（宿主半边 index.js + lib/，移植自 dsh-restart-now 1.3.0，MIT），因此不再依赖其他插件：任务守卫、安装锁、重启冷却、页面鉴权都照旧生效。仅桌面应用（Windows / macOS）显示；不提供退出应用。",
+    "detail": "docs/DETAIL.zh.md"
+  }
+}

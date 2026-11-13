@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Restart button (corner)",
+    "description": "A round flat button fixed to the bottom-right corner of the DS Bot interface: click it to confirm, wait, force, or cancel a restart of DSH. The restart is performed by this plugin's own desktop helper (Host half: index.js + lib/, ported from dsh-restart-now 1.3.0, MIT), so it no longer depends on another plugin; the task guard, install lock, cooldown and session check still apply. Shown only in the desktop app on Windows and macOS. Closing the app is not offered.",
+    "detail": "docs/DETAIL.en.md"
+  }
+}

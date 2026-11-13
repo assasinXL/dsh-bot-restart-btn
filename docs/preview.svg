@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="300" viewBox="0 0 640 300">
+  <rect width="640" height="300" fill="#fcfcfc"/>
+  <rect x="96" y="52" width="448" height="196" rx="14" fill="#ffffff" stroke="#e6e6e6"/>
+  <rect x="96" y="52" width="448" height="34" rx="14" fill="#f4f4f5"/>
+  <rect x="96" y="72" width="448" height="14" fill="#f4f4f5"/>
+  <circle cx="116" cy="69" r="4" fill="#d9d9dd"/>
+  <circle cx="130" cy="69" r="4" fill="#d9d9dd"/>
+  <circle cx="144" cy="69" r="4" fill="#d9d9dd"/>
+  <rect x="120" y="108" width="196" height="10" rx="5" fill="#ececed"/>
+  <rect x="120" y="132" width="268" height="10" rx="5" fill="#f1f1f2"/>
+  <rect x="120" y="156" width="152" height="10" rx="5" fill="#f1f1f2"/>
+  <rect x="120" y="196" width="300" height="26" rx="9" fill="#f7f7f8"/>
+  <circle cx="508" cy="214" r="18" fill="#fcfcfc" stroke="#dedee0"/>
+  <g transform="translate(499,205) scale(0.75)" fill="none" stroke="#141414" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M21 12a9 9 0 1 1-9-9c2.52 0 4.93 1 6.74 2.74L21 8"/>
+    <path d="M21 3v5h-5"/>
+  </g>
+  <rect x="334" y="118" width="200" height="74" rx="12" fill="#ffffff" stroke="#e6e6e6"/>
+  <rect x="350" y="136" width="98" height="8" rx="4" fill="#dcdcde"/>
+  <rect x="350" y="152" width="168" height="6" rx="3" fill="#ececed"/>
+  <rect x="350" y="162" width="126" height="6" rx="3" fill="#f1f1f2"/>
+  <rect x="434" y="172" width="44" height="14" rx="7" fill="#f2f2f3"/>
+  <rect x="484" y="172" width="34" height="14" rx="7" fill="#4d6bfe"/>
+</svg>

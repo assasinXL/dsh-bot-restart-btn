@@ -1,0 +1,5 @@
+# The bundle's only entry: the browser half draws the corner button, the Host
+# half serves the restart routes from ./lib (vendored from dsh-restart-now 1.3.0).
+- insert:
+    - id: dsh-bot-restart-btn
+      name: 'dsh-bot-restart-btn'
