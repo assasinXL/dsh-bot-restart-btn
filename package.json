@@ -1,0 +1,65 @@
+{
+  "name": "dsh-bot-restart-btn",
+  "version": "1.1.2",
+  "description": "Round restart button pinned to the bottom-right corner of the DS Bot interface, with its own desktop restart helper. DS Bot 界面右下角的圆形重启按钮（自带桌面重启助手）。",
+  "license": "MIT",
+  "author": "assasinXL",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/assasinXL/dsh-bot-restart-btn.git"
+  },
+  "homepage": "https://github.com/assasinXL/dsh-bot-restart-btn",
+  "bugs": {
+    "url": "https://github.com/assasinXL/dsh-bot-restart-btn/issues"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "dsh-bundle",
+    "restart",
+    "desktop",
+    "ds-bot"
+  ],
+  "type": "module",
+  "os": [
+    "win32",
+    "darwin"
+  ],
+  "engines": {
+    "dsh": ">=0.2.0-0"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs/*.md",
+    "docs/*.svg",
+    "icon.svg",
+    "README.md",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-locale"
+      ]
+    }
+  }
+}

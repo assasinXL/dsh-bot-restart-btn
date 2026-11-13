@@ -1,0 +1,6 @@
+node_modules/
+*.log
+*.tgz
+.DS_Store
+restart-button.last.json
+restart-button.config.json
